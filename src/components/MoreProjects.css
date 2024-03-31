@@ -84,6 +84,9 @@
     .rot{
         width: 170px;
     }
+    #one:hover, #two:hover, #three:hover, #four:hover, #five:hover, #six:hover, #seven:hover{
+        transform: scale(2) rotate(0deg) translate(90px,0px);
+    }
     .rightbend{
         transform: rotate(10deg) translate(170px,0);
     }
