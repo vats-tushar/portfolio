@@ -227,7 +227,7 @@ export default function Main() {
         </div>
       </div>
       <div ref={c} id='contact'>
-        <div className='hello' style={{textAlign: 'center', fontSize: 'clamp(20px,4vw,28px)'}}>Need a Developer and Desginer?</div>
+        <div className='hello' style={{textAlign: 'center', fontSize: 'clamp(20px,4vw,28px)'}}>Need a Developer and Designer?</div>
         <div style={{display: 'flex', width: {size}, justifyContent:'center', alignItems: 'center'}}><a className='explore con' href='mailto:tushpandat2002@gmail.com' onClick={()=>setState(true)}>Let's Work Together</a>
             <img src={state ? vid2: vid1} alt="hello" height={size>500?'250px':'150px'} style={{transform: size>500?'translate(0,50px)': 'translate(-30px,50px)'}}/>
         </div>
