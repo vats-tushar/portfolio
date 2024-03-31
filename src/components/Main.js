@@ -160,7 +160,7 @@ export default function Main() {
           <div className='mname'>My Name is <b>TUSHAR SHARMA,</b></div>
           <div className='dnd'>I'm a Web <DesnDev/></div>
           <hr width='70px'/>
-          <div className='craft'>I craft high-performing, beautiful websites that are interactice, playful and people-friendly.</div>
+          <div className='craft'>I craft high-performing, beautiful websites that are interactive, playful and people-friendly.</div>
           <a href={resume} target='_blank' rel="noreferrer"><div className='resume'>
             Resume
           </div></a>
