@@ -188,6 +188,7 @@ a{
     overflow: hidden;
   }
   .more{
+    width: 280px;
     text-align: center;
     cursor: pointer;
   }
