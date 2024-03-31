@@ -1,0 +1,105 @@
+#ndpage{
+    height: 180vh;
+    background-image: url('../images/abstract.jpg');
+    background-attachment: fixed;
+    color: black;
+    text-shadow: 0 0 7px white, 0 0 10px white, 0 0 12px white;
+}
+.moreprojects{
+    width: 100%;
+}
+.twoprojects{
+    height: 440px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+.extraproject{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    width: 600px;
+    padding: 0 0 50px 70px;
+}
+.oneprojcont{
+    width: 600px;
+}
+.imcontainer{
+    height: 200px;
+}
+.imhead{
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.snake{
+    height: 320px;
+}
+.rot{
+    width: 250px;
+    position: absolute;
+    z-index: 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: all 0.6s ease-in-out;
+}
+.leftbend{
+    transform-origin: bottom right;
+    transform:rotate(-10deg) translate(0px,0);
+}
+.rightbend{
+    transform-origin: bottom right;
+    transform:rotate(10deg) translate(230px,0px);
+}
+.rot:hover{
+    z-index: 999;
+    border-radius: 0px;
+}
+#one:hover, #two:hover{
+    transform: scale(3) rotate(0deg) translate(250px,60px);
+}
+#three:hover, #four:hover{
+    transform: scale(2) rotate(0deg) translate(-60px,70px);
+}
+#five:hover, #six:hover{
+    transform: scale(3) rotate(0deg) translate(250px,0px);
+}
+#seven:hover{
+    transform: scale(3) rotate(0deg) translate(-10px,0px);
+}
+.imdetail{
+    position: absolute;
+    width: 500px;
+    font-weight: 500;
+}
+@media only screen and (max-width:500px) {
+    .oneprojcont{
+        width: 380px;
+    }
+    .extraproject{
+        width: 380px;
+        padding: 0 0 10px 30px;
+    }
+    .rot{
+        width: 170px;
+    }
+    .rightbend{
+        transform: rotate(10deg) translate(170px,0);
+    }
+    .imdetail{
+        width: 370px;
+    }
+    .imcontainer{
+        height: 150px;
+    }
+    .wanderhub{
+        margin-top:310px;
+    }
+    .snake{
+        height: 250px;
+    }
+    #ndpage{
+        height: 230vh;
+    }
+}

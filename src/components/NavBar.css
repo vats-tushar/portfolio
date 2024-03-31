@@ -1,0 +1,22 @@
+.nav{
+    z-index: 99;
+    width: 100%;
+    height: 60px;
+    background-color: #313a3a;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    color: beige;
+}
+.nav-child{
+    display: flex;
+    width: 700px;
+    justify-content: space-around;
+}
+@media only screen and (max-width:500px) {
+    .nav{
+        font-size: 18px;
+        justify-content: space-between;
+    }
+}

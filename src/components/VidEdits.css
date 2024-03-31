@@ -1,0 +1,19 @@
+#editpage{
+    background-image: url(../images/editing.jpg);
+    background-attachment: fixed;
+}
+.vidarea{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.editvid{
+    width:550px;
+    box-shadow: 0 0 5px white, 0 0 25px wheat;
+    margin: 0 6% 4% 6%;
+}
+@media only screen and (max-width:500px) {
+    .editvid{
+        width: 370px;
+    }
+}
