@@ -53,10 +53,7 @@ export default function Main() {
     navigate('/moreprojects');
     window.scrollTo(0, 0);
   }
-  const seeedits = ()=>{
-    navigate('/edits');
-    window.scrollTo(0, 0);
-  }
+  
 
   const arr = ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'GSAP', 'ReactJS', 'Java', 'NodeJS', 'ExpressJS', 'SQL', 'MongoDB', 'FireStore'];
 
@@ -218,7 +215,7 @@ export default function Main() {
           <div className="logoimg"><img src={davinci} alt='logos' width='100px' height='100px'/></div>
           <div className='edit'><span style={{fontSize: 'clamp(20px,4vw,40px)', fontWeight: '500'}} id='#mtrig'>Video Editing</span> in <u>Davinci Resolve</u>. I create advance AMVs, which are able to narrate a story using cinematography. </div>
         </div>
-        <div style={{display: 'flex', justifyContent: 'space-around', height: '100px', alignItems: 'center'}}><div className='explore vids' onClick={seeedits}>See My Work</div></div>
+        <div style={{display: 'flex', justifyContent: 'space-around', height: '100px', alignItems: 'center'}}><a className='explore vids' href='https://www.instagram.com/squall_editzo/ target='_blank'>See My Work</a></div>
         <div className='tshead' style={{marginTop: '40px'}}>Achievement</div>
         <div className="ach">
           
